@@ -1,0 +1,98 @@
+/* background */
+body{
+	background-image: url("chrome-extension://__MSG_@@nmmldnofcldlkoeceogofigfnbdbclda/img/background.png");
+	background-size: cover;
+}
+.p2ZbV{
+	background-color: transparent !important;
+	/* background-image: url("chrome-extension://nmmldnofcldlkoeceogofigfnbdbclda/img/background.png") !important; */
+}
+/* taskbar */
+.UnvNgf{
+	height: 4rem !important;
+	background: #00000050 !important;
+    backdrop-filter: blur(5px) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0 5px white !important;
+    overflow: hidden !important;
+    margin-left: 50vw !important;
+    transform: translateX(-50%) !important;
+    margin-bottom: 5px !important;
+	width: auto !important;
+}
+/* taskbar shadow  */
+.R5ccN>div{
+    position: relative;
+}
+
+.R5ccN>div::before{
+    content: '';
+    position: absolute;
+    bottom: -8px;left: 50%;
+    border: 5px solid #ffffff00;
+    border-bottom-color: white;
+    filter: drop-shadow(0px 0 5px white);
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+.R5ccN>div:hover::before{
+    opacity: 1;
+}
+/* button  */
+.P9KVBf .uaILN:not(:disabled) {
+    background: linear-gradient(45deg, #03d8fb, #ff008a) !important;
+}
+.Gt6sbf:not(:disabled) {
+    background: linear-gradient(45deg, #ff0101, #ff62e5) !important;
+}
+/* user */
+.dkjMxf{
+	background-color: #ffffff10 !important;
+    backdrop-filter: blur(5px) !important;
+    box-shadow: 0 0 5px white !important;
+}
+/* chat box */
+.R3Gmyc{
+    bottom:75px !important;
+    background-color: transparent !important;
+}
+.WUFI9b{
+    background-color: #ffffff50 !important;
+}
+/* chat message */
+.GDhqjd[data-sender-name="Bạn"]{
+    background-color: #ff5858;
+    margin-left: auto;
+}
+.GDhqjd{
+    margin:5px;
+    background-color: #2f96fd;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px 15px !important;
+}
+.YTbUzc{
+    color: white !important;
+}
+.MuzmKe{
+    color: black !important;
+}
+.oIy2qc{
+    color: white !important;
+}
+.J0M6X.nulMpf.Didmac.sOkDId{
+    bottom:75px !important;
+}
+.KQZr0e {
+    background: linear-gradient(45deg, #00ccff54, #ff04f870) !important;
+    backdrop-filter: blur(5px) !important;
+}
+/* user gird */
+.axUSnc{
+    top:5px !important;
+}
+/* circle number  */
+.P9KVBf .gFyGKf {
+    background-color: #ff5b8f !important;
+}

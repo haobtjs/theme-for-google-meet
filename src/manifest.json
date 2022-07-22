@@ -1,0 +1,16 @@
+{
+	"name":"Google Meet Theme",
+	"description":"Bui Tieu Hao",
+	"version":"0.1",
+	"manifest_version":3,
+	"content_scripts":[
+		{
+			"matches":["https://meet.google.com/*"],
+			"css":["style.css"]
+		}
+	],
+	"web_accessible_resources": [{
+		"resources": ["img/*"],
+		"matches": ["<all_urls>"]
+	  }]
+}
